@@ -10,7 +10,7 @@
   }
 
   .header-row {
-    background-color: orange;
+    background-color: #bae8e8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@
   }
 
   .header-row .box {
-    padding: 10px;
+   padding:10px;
   }
 
   .header-row li {
@@ -61,4 +61,6 @@
     border: none;
     border-radius: 10%;
   }
-
+.box1{
+    padding-left: 700px;
+}
