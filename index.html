@@ -1,145 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin:0px;
-        }
-        #container
-        {
-            background-color: white;
-        }
-        .row1
-        {
-            display: flex;
-            justify-content: space-between;
-            background-color:#00FF00;
-            padding:10px;
-        }
-        #lis{
-            list-style: none;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
+    <link rel="stylesheet" href="assets/images/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-row"> 
+        <div class="box"><h1>Your Name</h1></div>
+        <div class="box">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
 
-           
-            
-        }
-        li{
-            display: inline-block;
-            padding:10px;
-            
-        }
-        a{
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            color:black;
-        }
-        a:hover{
-            text-decoration:underline;
-        }
-        .row2{
-            padding-left:200px;
-            padding-top:100px;
-            padding-bottom: 20px;
-            display:flex;
-            background-color:aqua;
-      
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
 
-        }
-        .row3{
-            display:flex;
-            justify-content: space-around;
-            height:350px;
-            align-items: center;
-            background-color: orange;
-        
+      <div class="row" id="home">
+        <div style="display: flex;padding-top: 50px;">
+          <div class="box">
+            <h1>Full Stack Developer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+              perferendis assumenda?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+              perferendis assumenda?
+            </p>
+            <button>Button 1</button>
+            <button>Button 1</button>
+          </div>
+          <div class="box">
+            <img src="https://picsum.photos/id/2/400/400" />
+          </div>
+        </div>
+      </div>
 
-        }
-        .img1{
-            padding-left:200px;
-            
-        }
-        .box{
-            margin:3px;
-            text-align: center;
-            
-            border:3px solid blue;
-            border-radius: 10px;
-            box-shadow: 3px 3px 3px 3px blue;
-            transition-property: transform;
-            transition-duration: 0.2s;
-            background-color: white;
-            
-        }
-        .box:hover{
-            transform:scale(1.1,1.1);
-        }
-    </style>
-</head>
-<body>
-    <div id="container">
-    <div class="row1">
-    <div><h1>Harshith</h1></div>
-    <div>
-    <ul id="lis">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-  </div>
-  <div class="row2">
-  <div>
-    <h2>My Information</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in eveniet laboriosam porro explicabo 
-        <br>accusantium fugit expedita maxime suscipit, molestiae est neque, autem unde quam eum nesciunt r<br>
-        iandae aliquid facere?.</p>
-     
-  </div>
- <div class="img1">
-    <img src="assets/images/1.jpg" >
- </div>
-  
+      <div id="projects" class="row" style="background-color: lightcoral">
+        <h1>Projects</h1>
+        <div style="display: flex">
+          <div class="box">
+            <h3>Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
 
-  </div>
-  <div class="row3">
-  <div class="box">
-  <h3>Project 1</h3>
-  <img src="assets/images/4.jpg"><br>
+          <div class="box">
+            <h3>Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
 
-    <p>This is basically an online store page<br>
-       done with basic html and css</p>
-    
-    
-<br>
-<a href="https://harshithreddy12377.github.io/online_h_store.github.io/">Project Link</a>
+          <div class="box">
+            <h3>Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="services" class="row" style="background-color: lightblue">
+        <h1>Services</h1>
+        <div style="display: flex">
+          <div class="box">
+            <h3>Web App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
 
-  
-  </div>
-  <div class="box">
-  <h3>Project 2</h3>
-  <img src="assets/images/4.jpg">
-  <br>
-  <p>This is basically an online store page<br>
-    done with basic html and css</p><br>
- 
-<a href="https://harshithreddy12377.github.io/online_h_store.github.io/">Project Link</a>
+          <div class="box">
+            <h3>Mobile App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
 
-  </div>
-  <div class="box">
-  <h3>Project 3</h3>
-  <img src="assets/images/4.jpg">
-  <br>
-  <p>This is basically an online store page<br>
-    done with basic html and css</p><br>
- 
-<a href="https://harshithreddy12377.github.io/online_h_store.github.io/">Project Link</a>
-  </div>
-  </div>
+          <div class="box">
+            <h3>Backend Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="row">
+        <h1>About</h1>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
+          optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
+          ipsa veniam deserunt asperiores nesciunt at provident itaque
+          cupiditate vel dolor.
+        </h3>
+        <h2>Skills</h2>
+        <h3>Java, Python, Reactjs</h3>
+        <p>Display the logo of all the technologies you know.</p>
+      </div>
+      <div
+        id="contact"
+        class="row"
+        style="background-color: lightgoldenrodyellow"
+      >
+        <h1>Contact</h1>
+        <div style="display: flex">
+         
 
+          <div class="box">
+            <h3>Contact Form</h3>
+            <p>
+             <input type="text" placeholder="Enter Name">
+            </p>
+            <p>
+              <input type="email" placeholder="Enter Email">
+             </p>
+             <p>
+              <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
+             </p>
+             <button>Send</button>
+          </div>
 
+          <div class="box">
+            <h3>Your/Company Name</h3>
+            <p>
+              <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+            <p>
+              <b>Email Address: </b>sample@email.com
+            </p>
+            <p>
+              <b>Phone Number: </b>+91 343 445 6789
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">@copyright 2024. All rights reserved.</div>
     </div>
-</body>
+  </body>
 </html>
