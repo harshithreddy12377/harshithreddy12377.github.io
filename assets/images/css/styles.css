@@ -42,7 +42,7 @@
   }
 
   .row .box {
-    padding: 20px;
+    padding: 50px;
     margin: 10px;
   }
 
@@ -61,6 +61,25 @@
     border: none;
     border-radius: 10%;
   }
-.box1{
-    padding-left: 700px;
+.row1{
+  
+ height:auto;
+ overflow: auto;
+ background-color: lightcoral;
 }
+
+.box-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box1{
+  width: 400px;
+  height: 400px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  margin: 10px;
+ text-align: center;
+}
+
